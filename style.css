@@ -91,16 +91,20 @@ nav ul li a:hover{
 
 .btn{
     display:inline-block;
-    margin-top:20px;
-    padding:12px 25px;
     background:#00bcd4;
     color:white;
+    padding:14px 28px;
     text-decoration:none;
-    border-radius:5px;
+    border-radius:8px;
+    font-size:18px;
+    font-weight:bold;
+    margin-right:15px;
+    transition:.3s;
 }
 
 .btn:hover{
     background:#0097a7;
+    transform:translateY(-3px);
 }
 
 /* Sections */
@@ -204,16 +208,16 @@ footer{
 .profile-pic{
     width:320px;
     height:320px;
+    border-radius:50%;
     object-fit:cover;
     object-position:center top;
-    border-radius:50%;
-    border:6px solid white;
-    box-shadow:0 0 40px rgba(255,255,255,0.4);
-    transition:0.5s;
+    border:6px solid #00bcd4;
+    transition:.4s;
 }
 
 .profile-pic:hover{
     transform:scale(1.05);
+    box-shadow:0 0 30px #00bcd4;
 }
 .project-card{
     background:white;
